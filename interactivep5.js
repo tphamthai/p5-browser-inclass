@@ -18,8 +18,8 @@ p.setup = function() {
 	button = p.createButton("play");
 	button.position (10,10);
 	button.mousePressed(p.togglePlaying);
-	amp = new p.p5.Amplitude();
-    fft = new p.p5.FFT(0.9,64);
+	amp = new p.Amplitude();
+    fft = new p.FFT(0.9,64);
 	w = p.width/64;
 
 
