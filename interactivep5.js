@@ -26,7 +26,7 @@ p.setup = function() {
 
 }
 p.loaded = function(){
-	p.console.log("loaded");
+	console.log("loaded");
 
 }
 p.togglePlaying = function(){
